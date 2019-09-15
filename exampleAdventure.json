@@ -47,7 +47,7 @@
 		},
 		{
 			"name": "room4",
-			"description": "You are in Room 4. You reached a dead end. There is a room to your east..",
+			"description": "You are in Room 4. You reached a dead end. There is a room to your east.",
 			"items": ["item2"],
 			"directions": [
 				{
