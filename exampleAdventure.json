@@ -1,0 +1,71 @@
+{
+	"startingRoom": "room1",
+	"endingRoom": "room5",
+	"rooms": [
+		{
+			"name": "room1",
+			"description": "You are in Room 1. There is a room to the north and south.",
+			"items": ["item1"],
+			"directions": [
+				{
+					"directionName": "North",
+					"room": "room2"
+				},
+				{
+					"directionName": "South",
+					"room": "room3"
+				}
+			]
+		},
+		{
+			"name": "room2",
+			"description": "You are in Room 2. There is a room to the south and the east.",
+			"directions": [
+				{
+					"directionName": "South",
+					"room": "room1"
+				},
+				{
+					"directionName": "East",
+					"room": "room5"
+				}
+			]
+		},
+		{
+			"name": "room3",
+			"description": "You are in Room 3. There is a room to the north and west.",
+			"directions": [
+				{
+					"directionName": "North",
+					"room": "room1"
+				},
+				{
+					"directionName": "West",
+					"room": "room4"
+				}
+			]
+		},
+		{
+			"name": "room4",
+			"description": "You are in Room 4. You reached a dead end. There is a room to your east..",
+			"items": ["item2"],
+			"directions": [
+				{
+					"directionName": "East",
+					"room": "room3"
+				}
+			]
+		},
+		{
+			"name": "room5",
+			"description": "You are in Room 5. You found the exit. ",
+			"items": ["item3"],
+			"directions": [
+				{
+					"directionName": "West",
+					"room": "room2"
+				}
+			]
+		}
+	]
+}
