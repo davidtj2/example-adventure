@@ -14,7 +14,7 @@
         {
           "directionName": "East",
           "room": "SiebelEntry",
-          "enabled": true,
+          "enabled": true
         }
       ]
     },
